@@ -59,3 +59,18 @@ string Method4(int count, string text)
 
 string res = Method4(10, "Танюшка ");
 Console.WriteLine(res);
+
+
+// Цикл "for"
+
+string Method41(int count, string text)
+{
+    string result = string.Empty; // string.Empty - пустая строка
+    for(int ii = 0; ii < count; ii++)
+    {
+        result = result + text;
+    }
+    return result;
+}
+string resp = Method41(10, "Танюшечка ");
+Console.WriteLine(resp);
